@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp">
+
+        <TextView
+            android:id="@+id/textViewVibeTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Vibe Title"
+            android:textSize="20dp"/>
+
+        <TextView
+            android:id="@+id/textViewVibeDescription"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Vibe description" />
+
+        <TextView
+            android:id="@+id/textViewDateStart"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Date start" />
+
+        <TextView
+            android:id="@+id/textViewDateEnd"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Date end" />
+
+        <TextView
+            android:id="@+id/textViewUserCreate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Create: " />
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>
